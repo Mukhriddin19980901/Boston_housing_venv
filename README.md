@@ -52,7 +52,7 @@ Data consists of 13 different features in both train and test input datas.Our ou
 - Now you can see the code [here](https://github.com/Mukhriddin19980901/Boston_housing/blob/main/boston_house_prices.ipynb).The model was built .Here you can compare the flactuation of training accuracy and loss after every epoch.
 
 
-<img src="[https://github.com/Mukhriddin19980901/cifar10/blob/main/pictures/cifa10.png](https://github.com/Mukhriddin19980901/Boston_housing/blob/main/pics/download.png?raw=true)" width="700" height="500" />
+<img src="https://github.com/Mukhriddin19980901/Boston_housing/blob/main/pics/download.png?raw=true" width="700" height="500" />
 
 
 - As far as validation concerned the numbers are  , validation accuracy is **79 %**  and validation loss **64 %**

@@ -8,6 +8,10 @@
 In order to use this model you need to create the environment on you computer.This is a Keras easy type data for beginners of Data Science.
 Data consists of 13 different features in both train and test input datas.Our output data is average prices of the 404 accomadations in Boston,USA.we needed to predict prices of 102 houses in test data.I used neural networks to increase the accuracy rate rather than using LinearRegression model from scikit-learn library.  
 
+> You can compare the prices of that area
+
+<img src="https://github.com/Mukhriddin19980901/Boston_housing/blob/main/pics/prices.png" width="700" height="500" />
+
 
 # Step - 1 . Downloading model
 
@@ -49,7 +53,13 @@ Data consists of 13 different features in both train and test input datas.Our ou
 
 # Step - 3 . Coding
  
-- Now you can see the code [here](https://github.com/Mukhriddin19980901/Boston_housing/blob/main/boston_house_prices.ipynb).The model was built .Here you can compare the flactuation of training accuracy and loss after every epoch.
+- Now you can see the code [here](https://github.com/Mukhriddin19980901/Boston_housing/blob/main/boston_house_prices.ipynb).I used mean squared error loss function and rmsprop ([Root Mean Squared Propagation](https://keras.io/api/optimizers/rmsprop/),)
+
+- The model summary :
+
+<img src="https://github.com/Mukhriddin19980901/Boston_housing/blob/main/pics/model_summary.png" width="700" height="500" />
+
+-Here you can compare the flactuation of training accuracy and loss after every epoch.
 
 
 <img src="https://github.com/Mukhriddin19980901/Boston_housing/blob/main/pics/download.png?raw=true" width="700" height="500" />

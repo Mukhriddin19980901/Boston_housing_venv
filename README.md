@@ -6,53 +6,53 @@
 
 # Introduction.
 In order to use this model you need to create the environment on you computer.This is a Keras easy type data for beginners of Data Science.
-Data consists of  in both train and test data.Each type has 5000 images of total 50,000 32x32 pixel images in train data .Another 10,000 in test data.I used CNN model.  
+Data consists of 13 different features in both train and test input datas.Our output data is average prices of the 404 accomadations in Boston,USA.we needed to predict prices of 102 houses in test data.I used neural networks to increase the accuracy rate rather than using LinearRegression model from scikit-learn library.  
 
 
 # Step - 1 . Downloading model
 
 - First click the buttons *windows+R*  and type *cmd* in box below clone my model from github on the black window
 
-       C:\>  git clone https://github.com/Mukhriddin19980901/cifar10.git
+       C:\>  git clone https://github.com/Mukhriddin19980901/boston_housing.git
 
 - Write this command on black window.
  
-       C:\> cd cifar10
+       C:\> cd boston_housing
  
 # Step - 2 .Creating virtual environment 
 
 - You need to upgrade your pip command to create environment
 
-       C:\cifar10>python.exe -m pip install --upgrade pip
+       C:\boston_housing>python.exe -m pip install --upgrade pip
 
 
 - Here you need to install environment module and you can create  your virtual environment
 
-       C:\cifar10>python -m venv pip install --user virtualenv
+       C:\boston_housing>python -m venv pip install --user virtualenv
  
  - Give the name to the environmentyou can give any name instead *environment_name*)
 
-       C:\cifar10>python -m venv environment_name
+       C:\boston_housing>python -m venv environment_name
 
 - Then you need to activate the environment
 
-       C:\cifar10>environment_name\Scripts\activate.bat
+       C:\boston_housing>environment_name\Scripts\activate.bat
 
 - Install all required libraries from the *requirements.txt* file
 
-      (environment_name) C:\cifar10> pip install -r requirements.txt
+      (environment_name) C:\boston_housing> pip install -r requirements.txt
 
 - Now you can work on jupyter notebook
 
-     (environment_name) C:\cifar10>jupyter notebook
+     (environment_name) C:\boston_housing>jupyter notebook
 
 
 # Step - 3 . Coding
  
-- Now you can see the code [here](https://github.com/Mukhriddin19980901/cifar10/blob/main/cifar10notebook.ipynb).The model was built on CNN.Here you can compare the flactuation of training accuracy and loss after every epoch.It took about 22 minutes and 30 seconds to train data in 20 epochs
+- Now you can see the code [here](https://github.com/Mukhriddin19980901/Boston_housing/blob/main/boston_house_prices.ipynb).The model was built .Here you can compare the flactuation of training accuracy and loss after every epoch.
 
 
-<img src="https://github.com/Mukhriddin19980901/cifar10/blob/main/pictures/cifa10.png" width="700" height="500" />
+<img src="[https://github.com/Mukhriddin19980901/cifar10/blob/main/pictures/cifa10.png](https://github.com/Mukhriddin19980901/Boston_housing/blob/main/pics/download.png?raw=true)" width="700" height="500" />
 
 
 - As far as validation concerned the numbers are  , validation accuracy is **79 %**  and validation loss **64 %**

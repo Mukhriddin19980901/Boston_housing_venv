@@ -59,13 +59,13 @@ Data consists of 13 different features in both train and test input datas.Our ou
 
 <img src="https://github.com/Mukhriddin19980901/Boston_housing/blob/main/pics/model_summary.png" width="700" height="500" />
 
--Here you can compare the flactuation of training accuracy and loss after every epoch.
+- Here you can compare the flactuation of accuracy of predictions and real prices  after every epoch.
 
 
 <img src="https://github.com/Mukhriddin19980901/Boston_housing/blob/main/pics/download.png?raw=true" width="700" height="500" />
 
 
-- As far as validation concerned the numbers are  , validation accuracy is **79 %**  and validation loss **64 %**
+- 
 
 
 🔴 ***If you find it useful give a star to this repo and follow me on [Kaggle](https://www.kaggle.com/muhriddinmalik) and [Linkedin](https://www.linkedin.com/in/mukhriddin-khaydarov-8a9729209?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bay%2BB1xqoRZKf2DcZnvkRVw%3D%3D)***

@@ -6,7 +6,7 @@
 
 # Introduction.
 In order to use this model you need to create the environment on you computer.This is a Keras easy type data for beginners of Data Science.
-Data consists of 13 different features in both train and test input datas.Our output data is average prices of the 404 accomadations in Boston,USA.we needed to predict prices of 102 houses in test data.I used neural networks to increase the accuracy rate rather than using LinearRegression model from scikit-learn library.  
+Data consists of 13 different features in both train and test input datas. Our output data is average prices of the 404 accomadations in Boston,USA.we needed to predict prices of 102 houses in test data.I used neural networks to increase the accuracy rate rather than using LinearRegression model from scikit-learn library.  
 
 > You can compare the prices of that area
 
